@@ -17,17 +17,10 @@ button {
 }
 
 button {
-  width: 60px;
   font-family: inherit;
-  font-size: 15px;
-  color: #888;
   background: none;
-  border: 0px;
+  border: 0;
   cursor: pointer;
-}
-
-button:hover {
-  color: #3a3a3a;
 }
 
 
@@ -135,6 +128,16 @@ button:hover {
 
 
 /* Buttons */
+
+.btn {
+  width: 60px;
+  font-size: 15px;
+  color: #888;
+}
+
+.btn:hover {
+  color: #3a3a3a;
+}
 
 .task__delete .delete-img {
   height: 2em;
